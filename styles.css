@@ -1,0 +1,168 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  
+  .container-fluid {
+  
+    padding-left: 0;
+  
+  }
+  
+  
+  .navbar-brand {
+  
+    padding-left: 2rem;
+  }
+  
+  h1  {
+  
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 800;
+  }
+  
+  h3 {
+  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    padding: 2rem 1rem 2rem 0;
+  }
+  
+  .navbar-nav {
+  
+    padding-right: 10rem;
+  }
+  
+  .t {
+  
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .head-1 {
+    padding: 8rem 8rem 8rem 6rem;
+  }
+  
+  .btn {
+  
+    margin: 1rem;
+    padding: 0.7rem 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    
+  
+  }
+  
+  .logo {
+  
+    padding:3% 10%;
+    margin-top: 4rem;
+    text-align: center;  
+  }
+  
+  .featimg {
+  
+    width: 58px;
+    height: 58px;
+    margin-bottom: 1rem;
+  
+  }
+  
+  p {
+  
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+  }
+  
+  h2 {
+  
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 8rem;
+    color: black;
+  }
+  
+  label #text {
+  
+    color: red;
+  }
+  
+  span.feat {
+  
+      border-bottom: 2px solid red;
+  }
+  
+  
+  
+  .carousel {
+    margin: 6rem 0;
+  }
+  
+  @media (min-width: 40em) {
+  
+    .carousel {
+      margin-bottom: 5rem;
+    }
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      bottom: 3rem;
+      z-index: 10;
+    }
+    
+    /* Declare heights because of positioning of img element */
+    .carousel-item {
+      height: 30rem;
+      width: 85%;
+      left: 8rem;
+    }
+    .carousel-item > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 32rem;
+    }
+    
+    .carousel-control-next {
+    
+    left: 62rem;
+    }
+    
+    .carousel-control-prev {
+    
+      left: 10rem;
+    
+      }
+  }
+  
+  @media screen and (max-width: 767px) {
+  
+    .head-img {
+  
+      opacity: 0;
+    }
+  
+    .head-img.animated {
+  
+      opacity: 1;
+    }
+  }
+  
+  .conimg {
+  
+    padding: 1.5rem;
+  }
+  
+  .contxt {
+  
+    padding: 3rem;
+  }
+  
+  #footer {
+  
+    text-align: center;
+  }
